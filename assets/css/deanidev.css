@@ -12188,11 +12188,16 @@ pre .code {
     text-align: center;
   }
   .about-img-holder {
-    max-width: 220px;
+    max-width: 100px;
     min-width: 100%;
-    width: 100%;
+    width: fit-content;
+    height: fit-content;
     margin: auto;
     margin-bottom: 20px;
+  }
+  .about-img {
+    height: 400px;
+    width: 300px !important;
   }
 }
 
